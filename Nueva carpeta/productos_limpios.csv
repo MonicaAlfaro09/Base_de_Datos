@@ -1,0 +1,48 @@
+﻿id_producto,nombre,categoria,precio,activo
+1,Calentador de agua Modelo 1,Climatización,11252.48,0
+2,Minisplit Modelo 2,Calefacción,11178.83,0
+3,Condensador Modelo 3,Accesorios,960.85,0
+4,Minisplit Modelo 4,Calefacción,7827.65,0
+6,Minisplit Modelo 6,Accesorios,9044.35,0
+7,Termostato Modelo 7,Accesorios,5433.63,0
+8,Minisplit Modelo 8,Agua caliente,1982.05,1
+9,Calentador de agua Modelo 9,Agua caliente,12788.67,1
+11,Calentador de agua Modelo 11,Agua caliente,12526.37,1
+12,Condensador Modelo 12,Calefacción,10716.29,0
+13,Minisplit Modelo 13,Agua caliente,14785.71,0
+14,Calentador de agua Modelo 14,Accesorios,4530.62,1
+15,Sin Nombre,Agua caliente,5651.43,1
+16,Calentador de agua Modelo 16,Calefacción,8245.03,0
+17,Termostato Modelo 17,Accesorios,6002.1,0
+18,Bomba de calor Modelo 18,Climatización,3821.2,0
+19,Bomba de calor Modelo 19,Accesorios,4382.24,0
+21,Filtro de aire Modelo 21,Accesorios,2571.64,0
+22,Minisplit Modelo 22,Agua caliente,11331.7,1
+23,Condensador Modelo 23,Accesorios,5748.95,0
+24,Radiador Modelo 24,Accesorios,1818.19,0
+25,Calentador de agua Modelo 25,,9597.97,1
+26,Condensador Modelo 26,Climatización,6079.13,1
+27,Radiador Modelo 27,Agua caliente,14580.64,0
+28,Calentador de agua Modelo 28,Agua caliente,11644.68,1
+29,Calentador de agua Modelo 29,Agua caliente,6804.1,1
+30,Aire acondicionado Modelo 30,Agua caliente,14592.38,0
+31,Radiador Modelo 31,Climatización,13122.52,1
+32,Radiador Modelo 32,Calefacción,2716.17,0
+33,Radiador Modelo 33,Climatización,9184.7,1
+34,Aire acondicionado Modelo 34,Climatización,13971.93,1
+35,Minisplit Modelo 35,Climatización,3992.64,0
+36,Calentador de agua Modelo 36,Accesorios,12332.34,0
+37,Termostato Modelo 37,Accesorios,14229.31,0
+38,Ventilador Modelo 38,Accesorios,14483.26,0
+39,Ventilador Modelo 39,Accesorios,14929.67,1
+40,Control remoto Modelo 40,Accesorios,2254.56,0
+41,Calentador de agua Modelo 41,Agua caliente,805.0,0
+42,Condensador Modelo 42,Calefacción,604.27,0
+43,Minisplit Modelo 43,Climatización,13628.59,1
+44,Calentador de agua Modelo 44,Calefacción,4537.92,1
+45,Minisplit Modelo 45,Calefacción,10988.61,1
+46,Minisplit Modelo 46,Accesorios,12208.71,0
+47,Calentador de agua Modelo 47,Climatización,10055.25,1
+48,Filtro de aire Modelo 48,Accesorios,7271.86,0
+49,Calentador de agua Modelo 49,Climatización,6338.01,1
+50,Calentador de agua Modelo 50,Calefacción,3278.06,1

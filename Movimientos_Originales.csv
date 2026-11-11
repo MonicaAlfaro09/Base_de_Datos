@@ -1,0 +1,51 @@
+id_movimiento,responsable,sucursal,producto,tipo_movimiento,cantidad,precio_unitario,total_registrado,fecha_movimiento
+1,Bernabé Armando Almonte Padilla,Nuevo León,Laptop,Salida,8,2684.16,21473.28,2026-03-28
+2,Guillermo Fidel Alvarez,Morelos,Tablet,Entrada,17,4596.54,78141.18,2026-03-17
+3,Dra. Susana Oquendo,Michoacán de Ocampo,Smartphone,Entrada,6,2738.45,16430.70,2026-04-07
+4,Humberto Vega Marrero,Hidalgo,Smartwatch,Salida,16,2493.18,40140.88,2026-06-14
+5,Iván Huerta,Baja California Sur,Laptop,Entrada,20,2560.67,51213.40,2026-01-18
+6,Carolina Estévez Barrera,Tabasco,Smartphone,Salida,15,2497.88,37468.20,2026-09-04
+7,Patricia Guillermina Valdez,Hidalgo,Tablet,Salida,21,3813.42,80331.82,2026-02-09
+8,Jesús Ernesto López,Veracruz de Ignacio de la Llave,Laptop,Entrada,27,704.34,19017.18,2026-01-17
+9,Fabiola Medina Corral,Tabasco,Auriculares,Entrada,12,876.45,10517.40,2026-09-22
+10,Florencia Carla Henríquez Olivárez,Guanajuato,Tablet,Entrada,27,836.49,22585.23,2026-08-11
+11,Isabela López Vázquez,Chiapas,Smartwatch,Entrada,1,3176.07,3176.07,2026-03-22
+12,Enrique Yáñez Cornejo,Baja California Sur,Auriculares,Entrada,14,1903.10,26643.40,2026-07-10
+13,Florencia Parra,Hidalgo,Smartwatch,Entrada,19,2240.50,42569.50,2026-03-20
+14,Luis Miguel Quiroz,Michoacán de Ocampo,Cámara,Entrada,8,3794.67,30357.36,2026-06-16
+15,Gonzalo Hernandes Guerra,Jalisco,Smartphone,Entrada,27,1967.73,53128.71,2026-06-11
+16,Norma Carrión Vargas,Sonora,Cámara,Entrada,28,2343.25,65611.00,2026-09-11
+17,Diana Olga de Jesús,Querétaro,Tablet,Entrada,28,531.76,14889.28,2026-09-13
+18,Ing. Julio César Salgado,Coahuila de Zaragoza,Tablet,Entrada,16,2780.68,44490.88,2026-09-01
+19,Sr. Emilio Rivera,Yucatán,Cámara,Entrada,22,1766.06,38853.32,2026-06-06
+20,Adalberto Vicente Hinojosa Carrillo,Sonora,Smartwatch,Entrada,30,3398.30,101949.00,2026-03-28
+21,María Eugenia Soto,Tlaxcala,Laptop,Salida,18,637.32,11721.76,2026-01-31
+22,Srita. Amalia Naranjo,Colima,Auriculares,Salida,2,1125.78,2251.56,2026-01-05
+23,Delia Gloria Oquendo,México,Smartwatch,Salida,10,3041.11,30411.10,2026-06-05
+24,Luisa Pelayo,Tlaxcala,Laptop,Salida,4,832.19,3328.76,2026-09-02
+25,Rodrigo Emilio Nieto,Guanajuato,Smartphone,Salida,29,1804.47,52579.63,2026-02-27
+26,Abelardo Jacinto Casárez Trejo,Chihuahua,Smartwatch,Entrada,11,4248.54,46733.94,2026-08-22
+27,Francisca Isabel Girón,Guerrero,Cámara,Entrada,16,4511.18,72178.88,2026-01-01
+28,Dra. Mayte Quintana,Tlaxcala,Smartwatch,Salida,22,633.95,14196.90,2026-02-24
+29,Uriel David Díaz,Nuevo León,Tablet,Salida,9,3166.52,28498.68,2026-03-18
+30,Sessa Conchita Mendoza,San Luis Potosí,Tablet,Entrada,19,3070.91,58347.29,2026-03-09
+31,Asunción Covarrubias Echeverría,Zacatecas,Cámara,Entrada,10,389.90,3899.00,2026-08-11
+32,Dra. Vanesa Palomino,Michoacán de Ocampo,Smartwatch,Entrada,3,1157.27,3471.81,2026-03-27
+33,Mayte Laura Marroquín,Nuevo León,Smartwatch,Salida,10,3211.35,32113.50,2026-06-09
+34,Rocío Nava,Sonora,Smartwatch,Salida,19,307.42,6090.98,2026-08-31
+35,Raquel Marrero Bustos,Morelos,Smartwatch,Salida,1,1478.81,1478.81,2026-03-28
+36,Armando Luna,Distrito Federal,Laptop,Entrada,21,4106.91,86245.11,2026-03-05
+37,Ramón Guillen Cotto,Chiapas,Smartphone,Salida,13,4966.98,64570.74,2026-01-13
+38,Dr. Eduardo Pedroza,Distrito Federal,Cámara,Entrada,11,871.14,9582.54,2026-02-01
+39,Lilia Corrales,Jalisco,Tablet,Entrada,18,3184.08,57313.44,2026-07-08
+40,Lic. René Madrigal,Sonora,Tablet,Entrada,17,755.62,12845.54,2026-03-08
+41,Israel Corral Briones,Guanajuato,Laptop,Salida,13,707.60,9198.80,2026-08-25
+42,Yolanda Nadia Escalante Regalado,Sinaloa,Tablet,Entrada,27,325.33,8783.91,2026-03-09
+43,Rosa Isabel Magaña Pedraza,Baja California Sur,Cámara,Entrada,27,4544.93,122713.11,2026-03-24
+44,Antonia Gracia Mata,Chiapas,Cámara,Salida,9,4942.94,44486.46,2026-09-29
+45,Ernesto Alonso Samaniego,Michoacán de Ocampo,Laptop,Salida,2,2840.87,5681.74,2026-03-20
+46,Sr. Patricio Saucedo,Aguascalientes,Laptop,Entrada,22,784.59,17260.98,2026-03-29
+47,Octavio Colunga Gallardo,San Luis Potosí,Smartphone,Entrada,20,2446.90,48938.00,2026-05-14
+48,Eric Paz Salcido,Coahuila de Zaragoza,Auriculares,Salida,27,2642.69,71602.63,2026-07-17
+49,Concepción Gallegos Almanza,Yucatán,Smartwatch,Salida,10,4786.43,47864.30,2026-04-18
+50,Ing. Pedro Briseño,Baja California,Smartwatch,Entrada,11,3535.65,38892.15,2026-04-13
