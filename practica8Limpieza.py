@@ -9,6 +9,8 @@ from sqlalchemy import create_engine, URL
 fake = Faker("es_MX")
 Faker.seed(7)
 
+
+
 try:
     df= pd.read_csv("Ventas_Originales_alfaro.csv", encoding="utf-8")
 
@@ -24,11 +26,11 @@ else:
     print("Columnas:", df.shape[1])
     print("RESUMEN ESTADISTIO")
     print(df.describe())
-
+#8.
 #SI HAY NULOS Y CUANTOS SON   
 print("Nulos")
 print(df.isnull)
-print("Cantidad de valores nulos", df.isnull.sum.sum)
+print("Cantidad de valores nulos:", df.isnull().sum().sum())
 
 #SI HYAY DUPLICADOS
 print("Duplicados")
@@ -37,20 +39,20 @@ print(df.duplicated)
 
 #SI HAY CLAVES PRIMARIAS REPETIDAS
 print("Claves repetidas")
-print(df["id_venta"].duplicated(keep=False))
-print("Claves reetidas total", df["id_venta"].duplicated(keep=False).sum())
+print(df["id_ventas"].duplicated(keep=False))
+print("Claves reetidas total", df["id_ventas"].duplicated(keep=False).sum())
 
 #CANTIDADES FUERA DEL RANGO (emplea ~ )not
 print("Cantidades fuera de rango")
 
 
-print(df[~df["cantidad"].between(1,10) | df["cantidad"].isna])
+print(df[~df["cantidad"].between(1,10) | df["cantidad"].isna()])
 cantidades = df["cantidad"]
 #############################################
 print(df["cantidad"])
 
 
-print(df[cantidades.between(1,10) | cantidades.isna])
+print(df[cantidades.between(1,10) | cantidades.isna()])
 
 
 #FECHAS INVALIDAS
@@ -67,19 +69,56 @@ productos = pd.DataFrame(
     }
 )
 print("productos inexistentes")
-print(df[df["producto"].isin(productos["id_producto"])])
 
-print(df(subset="id_producto").isin(productos["id_producto"]))
-#ACTUALIZAR CANTIDADES POSITIVAS 
+print(df[df["id_producto"].isin(productos["id_producto"])])
+
+print(df[df["id_producto"].isin(productos["id_producto"])])
+
+#9. ACTUALIZAR CANTIDADES POSITIVAS 
 df["subtotal"] = df["subtotal"].abs()
+df["cantidad"] = df ["cantidad"].abs()
 
-#QUITAR FILA DUPLICADA
+#10. QUITAR FILA DUPLICADA
 
 df.drop_duplicates(keep="first").copy()
 
 
-#IMPRIMIR CANTIDAD DE REGISTROS
+#12. IMPRIMIR CANTIDAD DE REGISTROS
 
 print(df)
 
+#14. Importa pyodbc  e imprime print(pyodbc.drivers())
+print(pyodbc.drivers())
 
+
+#19. Crea una variable servidor  
+# (ejemplo del valor : r"localhost\SQL" y una variable base_datos, con sus respectivos valores
+servidor = r"localhost\LAB3-EQ20"
+base_datos = "ventas" 
+
+#20. Crea una variable de cadena_conexion :
+cadena_conexion = (
+    "DRIVER={ODBC Driver 17 for SQL Server};"
+    f"SERVER={servidor};"
+    f"DATABASE={base_datos};"
+    "Trusted_Connection=yes;"
+)
+
+#21. Crea la variable url:
+
+
+url = URL.create(
+    "mssql+pyodbc",
+    query={"odbc_connect": cadena_conexion}
+)
+
+#22.Crea la variable motor:
+motor = create_engine(url)
+
+#23. Conectarse con SQL SERVER:
+try:
+    with motor.connect() as conexion:
+        print("Conexión exitosa con SQL Server.")
+
+except SQLAlchemyError as error:
+    print("No fue posible conectarse:", error)
